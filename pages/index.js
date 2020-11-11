@@ -4,7 +4,7 @@ function Home() {
   const [contador, setContador] = useState(0);
   return (
     <>
-      <div>Home</div>
+      <div>Home re-deploy</div>
       <div>{contador}</div>
       <button onClick={() => setContador(contador + 1)}>Adicionar</button>
     </>
